@@ -1,16 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+=======
+# 💬 Zeno Chat
 
-Currently, two official plugins are available:
+A real-time chat application built using React + Supabase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+- Real-time messaging
+- Image sharing (camera + upload)
+- Message delete
+- Online/offline status
+- Clean modern UI
 
-## React Compiler
+## 🛠 Tech Stack
+- Frontend: React + Vite + Tailwind CSS
+- Backend: Supabase (Auth + Database + Realtime)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Setup Instructions
 
-## Expanding the ESLint configuration
+1. Clone the repo:
+git clone https://github.com/yeshwanth15-V/zeno-chat.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies:
+npm install
+
+3. Create `.env` file:
+VITE_SUPABASE_URL=your_url
+VITE_SUPABASE_ANON_KEY=your_key
+
+4. Run project:
+npm run dev
+
+## 📌 Note
+`.env` file is not included for security reasons.
